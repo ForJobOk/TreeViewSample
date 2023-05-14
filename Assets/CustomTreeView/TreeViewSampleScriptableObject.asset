@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6236ae98a24ff4a16924cc2c2b53e4f9, type: 3}
+  m_Name: TreeViewSampleScriptableObject
+  m_EditorClassIdentifier: 
+  _logCategories:
+  - Sample1
+  - Sample2
+  - Sample3
+  - Sample4
+  - Sample5
+  _treeElements:
+  - _id: -1
+    _name: Root
+    _depth: -1
+    _category: 0
+    _isEnable: 1
+    _isEnablePreviousValue: 0
+  - _id: 0
+    _name: Sample1
+    _depth: 0
+    _category: 0
+    _isEnable: 1
+    _isEnablePreviousValue: 1
+  - _id: 2
+    _name: Sample3
+    _depth: 1
+    _category: 2
+    _isEnable: 1
+    _isEnablePreviousValue: 1
+  - _id: 3
+    _name: Sample4
+    _depth: 2
+    _category: 3
+    _isEnable: 1
+    _isEnablePreviousValue: 1
+  - _id: 1
+    _name: Sample2
+    _depth: 2
+    _category: 1
+    _isEnable: 1
+    _isEnablePreviousValue: 1
+  - _id: 4
+    _name: Sample5
+    _depth: 0
+    _category: 4
+    _isEnable: 1
+    _isEnablePreviousValue: 1
